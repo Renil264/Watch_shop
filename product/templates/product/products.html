@@ -1,0 +1,248 @@
+{% extends 'product/base.html' %}
+{% load static %}
+
+{% block css %} {% endblock %}
+
+{% block content %}
+<!-- Start Content -->
+{% if products %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-3">
+            <h1 class="h2 pb-4">Категории</h1>
+            <ul class="list-unstyled templatemo-accordion">
+                <li class="pb-3">
+                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                        Бренд
+                        <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                    </a>
+                    <ul class="collapse show list-unstyled pl-3">
+                        {% for filter in filter_by_brand %}
+                        <li><a class="text-decoration-none" href="{% url 'product:brand' filter.brand %}">{{ filter.brand }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li class="pb-3">
+                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                        Страна
+                        <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                    </a>
+                    <ul id="collapseTwo" class="collapse list-unstyled pl-3">
+                        {% for filter in filter_by_country %}
+                        <li><a class="text-decoration-none" href="{% url 'product:country' filter.country %}">{{ filter.country }}</a></li>
+                        {% endfor %}
+
+                    </ul>
+                </li>
+                <li class="pb-3">
+                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                        Материал
+                        <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                    </a>
+                    <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                        {% for filter in filter_by_material %}
+                        <li><a class="text-decoration-none" href="{% url 'product:material' filter.material %}">{{ filter.material}} </a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="text-end">
+                    <ul class="list-inline shop-top-menu pb-3 pt-1">
+                        <li class="list-inline-item">
+                            <a class="fs-6 text-dark text-decoration-none mr-3" href="{% url 'product:index' %}">ВСЕ</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fs-6 text-dark text-decoration-none mr-3 "
+                               href="{% url 'product:category' category_id=1 %}">МУЖСКИЕ</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fs-6 text-dark text-decoration-none"
+                               href="{% url 'product:category' category_id=2 %}">ЖЕНСКИЕ</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fs-6 text-dark text-decoration-none"
+                               href="{% url 'product:sort' sort='cheaper' %}">СНАЧАЛО ДЕШЕВЫЕ</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="fs-6 text-dark text-decoration-none"
+                               href="{% url 'product:sort' sort='expensive' %}">СНАЧАЛО ДОРОГИЕ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                {% for product in products %}
+                <div class="col-md-4">
+                    <div class="card text-center mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="/media/{{ product.image }}">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2"
+                                           href="{% url 'product:product_details' product.id %}"><i
+                                            class="far fa-eye"></i></a></li>
+                                    <li><a href="{% url 'product:basket_add' product.id %}"
+                                           class="btn btn-success text-white mt-2"><i
+                                            class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="{% url 'product:product_details' product.id %}"
+                               class="h3 text-decoration-none text-dark">{{ product.name }}</a>
+                            <h5 class="text-center">{{ product.price }} грн.</h5>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item {% if not products.has_previous %} disabled {% endif %}">
+                            <a class="page-link"
+                               href="{% if products.has_previous %} {% url 'product:page' products.previous_page_number %}{% else %} # {% endif %}"
+                               tabindex="-1" aria-disabled="true">Назад</a>
+                        </li>
+                        {% for page in products.paginator.page.range %}
+                        <li class="page-item">
+                            <a class="page-link"
+                               href="{% url 'product:page' %}">
+                                {{page}}
+                            </a>
+                        </li>
+                        {% endfor %}
+                        <li class="page-item {% if not products.has_next %} disabled {% endif %}">
+                            <a class="page-link"
+                               href="{% if products.has_next%} {% url 'product:page' products.next_page_number %} {% else %} # {% endif %}">
+                                Далее</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="container py-5">
+    <p class="fs-4 text-center">По запросу: "{{ search }}" ничего не найдено! </p>
+</div>
+
+{% endif %}
+<!-- End Content -->
+
+<!-- Start Brands -->
+<section class="bg-light py-5">
+    <div class="container my-4">
+        <div class="row text-center py-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h2">Бренды</h1>
+            </div>
+            <div class="col-lg-9 m-auto tempaltemo-carousel">
+                <div class="row d-flex flex-row">
+                    <!--Controls-->
+                    <div class="col-1 align-self-center">
+                        <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
+                            <i class="text-light fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+
+                    <!--Carousel Wrapper-->
+                    <div class="col">
+                        <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example"
+                             data-bs-ride="carousel">
+                            <!--Slides-->
+                            <div class="carousel-inner" role="listbox">
+
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Rado' %}">
+                                                <img class="img-fluid brand-img"
+                                                     src="{% static 'assets/img/brand_02.png' %}"
+                                                     alt="Brand Logo">
+                                            </a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Rolex' %}">
+                                                <img class="img-fluid brand-img"
+                                                     src="{% static 'assets/img/brand_01.png' %}"
+                                                     alt="Brand Logo">
+                                            </a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Audemars Piguet' %}">
+                                                <img class="img-fluid brand-img"
+                                                     src="{% static 'assets/img/brand_03.png' %}"
+                                                     alt="Brand Logo">
+                                            </a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Patek Philippe' %}">
+                                                <img class="img-fluid brand-img"
+                                                     src="{% static 'assets/img/brand_04.png' %}"
+                                                     alt="Brand Logo">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End First slide-->
+
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Omega' %}"><img
+                                                    class="img-fluid brand-img"
+                                                    src="{% static 'assets/img/brand_05.png' %}"
+                                                    alt="Brand Logo"></a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Cartier' %}"><img
+                                                    class="img-fluid brand-img"
+                                                    src="{% static 'assets/img/brand_06.png' %}"
+                                                    alt="Brand Logo"></a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Hublot' %}"><img
+                                                    class="img-fluid brand-img"
+                                                    src="{% static 'assets/img/brand_07.png' %}"
+                                                    alt="Brand Logo"></a>
+                                        </div>
+                                        <div class="col-3 p-md-5">
+                                            <a href="{% url 'product:brand' brand='Longines' %}"><img
+                                                    class="img-fluid brand-img"
+                                                    src="{% static 'assets/img/brand_08.png' %}"
+                                                    alt="Brand Logo"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Second slide-->
+                            </div>
+                            <!--End Slides-->
+                        </div>
+                    </div>
+                    <!--End Carousel Wrapper-->
+
+                    <!--Controls-->
+                    <div class="col-1 align-self-center">
+                        <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
+                            <i class="text-light fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Brands-->
+{% endblock %}
+
+
+</body>
+
+</html>

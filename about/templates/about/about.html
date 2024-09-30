@@ -1,0 +1,83 @@
+{% extends 'product/base.html' %}
+{% load static %}
+
+{% block css %} {% endblock %}
+
+{% block content %}
+
+<body>
+    <section class="bg-success py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>О нас</h1>
+                    <p>
+                        Время – наш самый главный ресурс. Наша компания помогает своим покупателям ценить, хранить свое время и управлять им.
+                        Это достигается тем, что каждому человеку мы подбираем только подходящие часы и украшения.
+                        Много лет мы помогаем покупателю выразить свою индивидуальность через часы и украшения от самых известных мировых производителей.
+
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="{% static 'assets/img/about us.svg' %}" alt="About Hero">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Close Banner -->
+
+    <!-- Start Section -->
+    <section class="container py-5">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Преимущества</h1>
+                <p>
+                    Мы помогаем своим клиентам получать удовольствие и эмоции от произведений часового искусства.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-truck fa-lg"></i></div>
+                    <h2 class="h5 mt-4 text-center">Быстрая доставка</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fas fa-exchange-alt"></i></div>
+                    <h2 class="h5 mt-4 text-center">Простой возврат</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-percent"></i></div>
+                    <h2 class="h5 mt-4 text-center">Регулярные акции</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-user"></i></div>
+                    <h2 class="h5 mt-4 text-center">Обслуживание 24/7</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+{% endblock %}
+
+
+{% block js %}
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_Hz31h5UMKBKMXJcXGFqQqR5RHa9NVNs&callback=initMap&v=weekly"
+      async
+    ></script>
+{% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+{% extends 'product/base.html' %}
+{% load static %}
+
+
+{% block css %} {% endblock %}
+
+{% block content %}
+<body>
+<!-- Start Content Page -->
+<div class="container-fluid bg-light py-5">
+    <div class="col-md-6 m-auto text-center">
+        <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+        <p> Заказ на сайте Вы можете оформить 24 часа 7 дней в неделю. </p>
+    </div>
+    <div class="col-md-5 m-auto text-left">
+        <ul class="list-unstyled py-2">
+            <li><strong>График работы колл-центра:</strong></li>
+            <li>Понедельник - пятница с 09:00 до 19:00</li>
+            <li>Cуббота - воскресенье с 10:00 до 20:00</li>
+            <br>
+            <li><strong>E-mail: example@gmail.com</strong></li>
+            <li>По вопросам: example@gmail.com</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Start Contact -->
+<div class="container py-5">
+    <div class="row py-5">
+        <form class="col-md-9 m-auto" method="post" role="form">
+            {% csrf_token %}
+            <!--            {{ form.as_p}}-->
+            {% if success %}
+            <div class="alert alert-success">
+                <strong>Сообщение успешно отправлено!</strong>
+            </div>
+            {% else %}
+            <div class="row">
+                <div class="form-group col-md-6 mb-3">
+                    <label for="inputname">Имя:</label>
+                    {{ form.name }}
+                </div>
+                <div class="form-group col-md-6 mb-3">
+                    <label for="inputemail">Почта:</label>
+                    {{ form.email }}
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="inputsubject">Тема:</label>
+                {{ form.subject }}
+            </div>
+            <div class="mb-3">
+                <label for="inputmessage">Сообщение:</label>
+                {{ form.message }}
+            </div>
+            <div class="row">
+                <div class="col text-end mt-2">
+                    <button type="submit" class="btn btn-success btn-lg px-3">Отправить</button>
+                </div>
+            </div>
+            {% endif %}
+        </form>
+    </div>
+</div>
+<!-- End Contact -->
+{% endblock %}
+</body>
+</html>

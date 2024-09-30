@@ -1,0 +1,134 @@
+{% extends 'product/base.html' %}
+{% load static %}
+
+{% block css %} {% endblock %}
+
+{% block content %}
+<!-- Open Content -->
+<section class="bg-light">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-5 mt-5">
+                <div class="card mb-3">
+                    <img class="card-img img-fluid" src="/media/{{ product_detail.image }}"
+                         alt="Card image cap"
+                         id="product-detail">
+                </div>
+                <div class="row">
+
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="car text-center">
+                            <img src="/media/{{ product_detail.image1 }}" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="car text-center">
+                            <img src="/media/{{ product_detail.image2 }}" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="car text-center">
+                            <img src="/media/{{ product_detail.image3 }}" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- col end -->
+            <div class="col-lg-7 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h3 text-center py-2"><strong> {{ product_detail.name }} </strong></p>
+                        <p class="h4 py-1"><strong>Цена:</strong> {{ product_detail.price }} грн</p>
+                        <p class="h4 py-1"><strong>Код товара:</strong> {{ product_detail.product_code }} </p>
+                        <p class="h4 py-1"><strong>Наличие:</strong> {% if product_detail.exist %} Да {% else %} Нет {% endif %}</p>
+                        <p class="h4 py-1"><strong>Описание:</strong></p>
+                        <p>{{ product_detail.description }} </p>
+                        <p class="h4 py-2"><strong>Основные характеристики:</strong></p>
+                        <ul class="list-unstyled pb-3">
+                            <li>Страна: <u>{{ product_detail.country }}</u></li>
+                            <li>Бренд: <u>{{ product_detail.brand_name }}</u></li>
+                            <li>Пол: <u>{{ product_detail.gender }}</u></li>
+                            <li>Тип механизма: <u>{{ product_detail.mechanism }}</u></li>
+                            <li>Материал корпуса: <u>{{ product_detail.case_material }}</u></li>
+                            <li>Водозащита: <u>{{ product_detail.waterproof }}</u></li>
+                            <li>Гарантия: <u>{{ product_detail.warranty }} мес</u></li>
+                        </ul>
+                            <div class="row pb-3">
+                                <div class="col d-grid">
+                                    <a href="{% url 'users:profile' %}" class="btn btn-success btn-lg" role="button">
+                                        <strong>
+                                            Перейти к оплате
+                                        </strong>
+                                    </a>
+                                </div>
+                                <div class="col d-grid">
+                                    <a href="{% url 'product:basket_add' product_detail.id %}"
+                                       class="btn btn-success btn-lg"> <strong>
+                                        Добавить в корзину
+                                    </strong></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Close Content -->
+
+<!-- Start Article -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center p-2 pb-3">
+            <h4>Похожие товары</h4>
+        </div>
+
+        <!--Start Carousel Wrapper-->
+        <div id="carousel-related-product">
+            {% for product in products %}
+            {% if product.id == product_detail.id and length < 2%}
+                <div class="row text-center">
+                    <p>Схожих товаров не найдено</p>
+                </div>
+            {% else %}
+                <div class="p-2 pb-3">
+                    <div class="product-wap card rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" src="/media/{{ product.image }}">
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2"
+                                           href="{% url 'product:product_details' product.id %}"><i
+                                            class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2"
+                                           href="{% url 'product:basket_add' product.id %}"><i
+                                            class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="{% url 'product:product_details' product.id %}"
+                               class="h3 text-decoration-none text-dark"><p class="text-center">{{ product.name }}</p></a>
+                            <h5 class="text-center">{{ product.price }} грн</h5>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Article -->
+{% endblock %}
+
+{% block js %}
+<!-- Start Slider Script -->
+<script src="{% static 'assets/js/slick.min.js' %}"></script>
+<script src="{% static 'assets/js/custom.js' %}"></script>
+<!-- End Slider Script -->
+{% endblock %}
+
+</body>
+
+</html>

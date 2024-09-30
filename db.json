@@ -1,0 +1,1425 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-01-20T11:54:22.473Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "hhrm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-02-02T13:56:39.657Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Blue jacket | Одежда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-02-02T13:59:45.281Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Blue-jacket | Одежда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-02-08T10:13:04.562Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-02-08T10:13:30.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-02-08T10:14:46.843Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-02-08T10:15:31.789Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-02-08T10:15:46.266Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-02-08T10:16:11.536Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-02-08T10:23:59.797Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Blue-jacket | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-02-08T10:24:15.304Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ЧАСЫ MICHAEL KORS MK5353 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-02-08T10:24:50.897Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "ЧАСЫ SEVENFRIDAY SF-P1B/01 | Одежда",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-02-08T10:25:10.873Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ЧАСЫ MICHAEL KORS MK5353 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Quantity\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-02-08T10:46:10.737Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "ЧАСЫ SEVENFRIDAY SF-P1B/01 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-02-08T10:46:17.194Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ЧАСЫ ATLANTIC 62455.41.61 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-02-08T10:46:21.995Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "ЧАСЫ MICHAEL KORS MK5353 | Одежда",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-02-12T10:08:00.074Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Rado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-02-12T10:10:05.975Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ЧАСЫ RADO 01.115.0927.3.015 | Rado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-07-12T16:47:23.745Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-07-12T16:48:00.717Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Apple",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-07-12T16:56:00.618Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add product category",
+    "content_type": 6,
+    "codename": "add_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change product category",
+    "content_type": 6,
+    "codename": "change_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete product category",
+    "content_type": 6,
+    "codename": "delete_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view product category",
+    "content_type": 6,
+    "codename": "view_productcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 8,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 8,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 8,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 8,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add basket",
+    "content_type": 9,
+    "codename": "add_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change basket",
+    "content_type": 9,
+    "codename": "change_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete basket",
+    "content_type": 9,
+    "codename": "delete_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view basket",
+    "content_type": 9,
+    "codename": "view_basket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add subscribe",
+    "content_type": 10,
+    "codename": "add_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change subscribe",
+    "content_type": 10,
+    "codename": "change_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete subscribe",
+    "content_type": 10,
+    "codename": "delete_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view subscribe",
+    "content_type": 10,
+    "codename": "view_subscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add contact",
+    "content_type": 11,
+    "codename": "add_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change contact",
+    "content_type": 11,
+    "codename": "change_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete contact",
+    "content_type": 11,
+    "codename": "delete_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view contact",
+    "content_type": 11,
+    "codename": "view_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add user subscribe",
+    "content_type": 10,
+    "codename": "add_usersubscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change user subscribe",
+    "content_type": 10,
+    "codename": "change_usersubscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete user subscribe",
+    "content_type": 10,
+    "codename": "delete_usersubscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view user subscribe",
+    "content_type": 10,
+    "codename": "view_usersubscribe"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add brands",
+    "content_type": 12,
+    "codename": "add_brands"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change brands",
+    "content_type": 12,
+    "codename": "change_brands"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete brands",
+    "content_type": 12,
+    "codename": "delete_brands"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view brands",
+    "content_type": 12,
+    "codename": "view_brands"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add filter category",
+    "content_type": 13,
+    "codename": "add_filtercategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change filter category",
+    "content_type": 13,
+    "codename": "change_filtercategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete filter category",
+    "content_type": 13,
+    "codename": "delete_filtercategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view filter category",
+    "content_type": 13,
+    "codename": "view_filtercategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add filter brand",
+    "content_type": 14,
+    "codename": "add_filterbrand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change filter brand",
+    "content_type": 14,
+    "codename": "change_filterbrand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete filter brand",
+    "content_type": 14,
+    "codename": "delete_filterbrand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view filter brand",
+    "content_type": 14,
+    "codename": "view_filterbrand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add filter country",
+    "content_type": 15,
+    "codename": "add_filtercountry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change filter country",
+    "content_type": 15,
+    "codename": "change_filtercountry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete filter country",
+    "content_type": 15,
+    "codename": "delete_filtercountry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view filter country",
+    "content_type": 15,
+    "codename": "view_filtercountry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add filter material",
+    "content_type": 16,
+    "codename": "add_filtermaterial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change filter material",
+    "content_type": 16,
+    "codename": "change_filtermaterial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete filter material",
+    "content_type": 16,
+    "codename": "delete_filtermaterial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view filter material",
+    "content_type": 16,
+    "codename": "view_filtermaterial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "product",
+    "model": "productcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "product",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "product",
+    "model": "basket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "product",
+    "model": "usersubscribe"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "contacts",
+    "model": "contact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "product",
+    "model": "brands"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "product",
+    "model": "filtercategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "product",
+    "model": "filterbrand"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "product",
+    "model": "filtercountry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "product",
+    "model": "filtermaterial"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0mcqy0jqmt0w0j583iblc3vbaqc7pwfp",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1o54eY:NOOAADWB1IBVuhENxqrKFJqVn0y8tQrETrm-PMCzo90",
+    "expire_date": "2022-07-09T12:12:42.091Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ic9o6ykg8sobsnhf9a6232o5yt1in314",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1nAVyc:OUrDamn4httYcqsBJ-2GgWpHM1mwQjzHpSHaj90PQ6Q",
+    "expire_date": "2022-02-03T11:51:38.297Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ihjt50db1a6t28hq8r3s9jb1zgh7ym0h",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1nK49g:gxfAmwxPl6xVV3-QvEKS7ONRN5hhmu06izW_oYAnWfg",
+    "expire_date": "2022-03-01T20:10:32.004Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iy4o3bblks5ukulyk04aw30zpvg4bwrk",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1nvK6Q:zv8CC7Ap5-2A2VKGx5f4sjWDgHskBScaykxzsQlL9Mw",
+    "expire_date": "2022-06-12T14:41:10.468Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p42auhnlqkfk82jgmcindenb1ii5jij8",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1oBJ2F:vIT4gVlj4cacf8sm7jntf3fEITgdgrzEBC0Axw7tjLw",
+    "expire_date": "2022-07-26T16:46:55.805Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q8v5e1w5brr9lg78yd9u7dib58l12p36",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1oAHm8:V91DwO15GG0t3tZwEVHRlLkg_7mZ-zm-dV0tkMiw_gk",
+    "expire_date": "2022-07-23T21:14:04.960Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vh9meqt23sbhvt6ebb82uzusngvq3cqu",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFAeQwu3fsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3Zmkp1-t4jpQW0H-Y7t1nnqbV3myHeFH3Twa8_0vBzu30HFUb91iQRJaq3AGAGGnNfFaXJZApHQKJwiO1mPqigNFnL0UvkUi8fJWLDs_QHP5Dc4:1oQDTI:zF6DYfTpqVVX8inADl1_etKShbElkc3_6Dd2yssmux0",
+    "expire_date": "2022-09-05T19:52:28.947Z"
+  }
+},
+{
+  "model": "product.productcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Мужские",
+    "description": ""
+  }
+},
+{
+  "model": "product.productcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Женские",
+    "description": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 3,
+  "fields": {
+    "image": "product_images/prod_01_1.jpg",
+    "image1": "product_images/prod_01_2.jpg",
+    "image2": "product_images/prod_01_3.jpg",
+    "image3": "product_images/prod_01_4.jpg",
+    "name": "ЧАСЫ MICHAEL KORS MK5353",
+    "price": 9770,
+    "product_code": 43851,
+    "exist": true,
+    "description": "Женские часы MICHAEL KORS MK5353 умело сочетают в себе элегантность и вычурность. Внимание производителей к деталям позволило добиться эффектности во всём. Браслет и корпус сделаны из прочной гипоаллергенной стали. Благодаря форме звеньев, игра света на них делает ваш аксессуар неотразимым. Безель и индикация циферблата украшены камнями Сваровски. Встроенный в часы хронограф делает их не просто эффектными и стильными, но и уникальными. Ведь не каждый производитель оснащает этим усложнением свои часы. MICHAEL KORS MK5353 станет хорошим выбором для любой девушки, которая ищет дополнение к своему неповторимому образу.",
+    "country": "США",
+    "brand_name": "Michael Kors",
+    "gender": "Женские",
+    "mechanism": "Кварцевый",
+    "case_material": "Cталь",
+    "waterproof": "100м (Плавание и ныряние без акваланга)",
+    "warranty": "24",
+    "quantity": 21,
+    "category": 2
+  }
+},
+{
+  "model": "product.product",
+  "pk": 4,
+  "fields": {
+    "image": "product_images/prod_02_1.jpg",
+    "image1": "product_images/prod_02_2.jpg",
+    "image2": "product_images/prod_02_3.jpg",
+    "image3": "product_images/prod_02_4.jpg",
+    "name": "ЧАСЫ ATLANTIC 62455.41.61",
+    "price": 10990,
+    "product_code": 57055,
+    "exist": true,
+    "description": "Стильный мужской хронограф из коллекции Sealine. Корпус диаметром 44-мм выполнен из полированной медицинской стали. Метки-деления и крупные стрелки с люминисцентным покрытием расположились на черном циферблате с рифленой каймой. Вспомогательные циферблаты хронографа и окошко даты дополняют дизайн модели. Завершает композицию крупный, браслет из полированной и матовой стали.",
+    "country": "Швейцария",
+    "brand_name": "Atlantic",
+    "gender": "Мужские",
+    "mechanism": "Кварцевый",
+    "case_material": "Cталь",
+    "waterproof": "50WR",
+    "warranty": "24",
+    "quantity": 12,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 5,
+  "fields": {
+    "image": "product_images/prod_03_1.jpg",
+    "image1": "product_images/prod_03_2.jpg",
+    "image2": "product_images/prod_03_3.jpg",
+    "image3": "product_images/prod_03_4.jpg",
+    "name": "ЧАСЫ SEVENFRIDAY SF-P1B/01",
+    "price": 42800,
+    "product_code": 56011,
+    "exist": true,
+    "description": "Механизм приводимый в движение двумя взаимозаменяемыми шестернями, P1B/01 черпает вдохновение в промышленном зубчатом колесе. Шестислойный многоуровневый циферблат из нержавеющей стали дополнен матовыми, серебряными, родиевыми и черными дисками. Корпус выполнена из полированной нержавеющей стали, а анимационное кольцо с горизонтальной шлифовкой завершает эту классическую интерпретацию.",
+    "country": "Швейцария",
+    "brand_name": "Sevenfriday",
+    "gender": "Мужские",
+    "mechanism": "Механика с автоподзаводом",
+    "case_material": "Кожа",
+    "waterproof": "30WR",
+    "warranty": "12",
+    "quantity": 4,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 6,
+  "fields": {
+    "image": "product_images/prod_04_1.jpg",
+    "image1": "product_images/prod_04_2.jpg",
+    "image2": "product_images/prod_04_3.jpg",
+    "image3": "product_images/prod_04_4.jpg",
+    "name": "ЧАСЫ RADO 01.115.0927.3.015",
+    "price": 41580,
+    "product_code": 49012,
+    "exist": true,
+    "description": "Благодаря многообразию размеров и цветовых комбинаций часы Rado Centrix 01.115.0927.3.015/R30927153 действительно универсальны и смогут удовлетворить любой вкус. Благодаря использованию фирменного материала Rado — сапфирового стекла, устойчивого к появлению царапин, эта модель часов прослужит вам долгие годы, сохраняя привлекательный внешний вид.",
+    "country": "Швейцария",
+    "brand_name": "Rado",
+    "gender": "Мужские",
+    "mechanism": "Кварцевый",
+    "case_material": "Cталь",
+    "waterproof": "30WR",
+    "warranty": "12",
+    "quantity": 5,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 7,
+  "fields": {
+    "image": "product_images/prod_05_1.jpg",
+    "image1": "product_images/prod_05_2.jpg",
+    "image2": "product_images/prod_05_3.jpg",
+    "image3": "product_images/prod_05_4.jpg",
+    "name": "ЧАСЫ GARMIN MARQ CAPTAIN",
+    "price": 85500,
+    "product_code": 12409,
+    "exist": true,
+    "description": "Премиальные мультиспортивные смарт-часы с поддержкой Garmin Pay, воспроизведением музыки, наличием GPS, ГЛОНАСС, GALILEO и встроенным оптическим пульсометром Pulse Ox.",
+    "country": "США",
+    "brand_name": "Garmin",
+    "gender": "Мужские",
+    "mechanism": "Кварцевый",
+    "case_material": "Полимер",
+    "waterproof": "Погружение до 100 метров (стандарт EN13319)",
+    "warranty": "12",
+    "quantity": 7,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 8,
+  "fields": {
+    "image": "product_images/prod_06_1.jpg",
+    "image1": "product_images/prod_06_2.jpg",
+    "image2": "product_images/prod_06_3.jpg",
+    "image3": "product_images/prod_06_4.jpg",
+    "name": "ЧАСЫ ROLEX COSMOGRAPH DAYTONA, 40 мм, золото\n",
+    "price": 8500000,
+    "product_code": 11111,
+    "exist": true,
+    "description": "Этот хронограф является идеальным инструментом для автогонщиков. На протяжении более 50 лет с момента своего создания модель Cosmograph Daytona постоянно развивалась, оставаясь уникальной в своем роде и непревзойденной среди спортивных хронографов. Корпус выполнен из 18‑кратного желтого золота.",
+    "country": "Швейцария",
+    "brand_name": "Rolex",
+    "gender": "Мужские",
+    "mechanism": "Perpetual, механический хронограф, автоматический подзавод",
+    "case_material": "Золото",
+    "waterproof": "До 100 м",
+    "warranty": "70",
+    "quantity": 1,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 9,
+  "fields": {
+    "image": "product_images/prod_07_1.jpg",
+    "image1": "product_images/prod_07_2.jpg",
+    "image2": "product_images/prod_07_3.jpg",
+    "image3": "product_images/prod_07_4.jpg",
+    "name": "ЧАСЫ PATEK PHILIPPE 5980R 40,5 мм, розовое золото",
+    "price": 7346541,
+    "product_code": 11112,
+    "exist": true,
+    "description": "Корпус оригинальной конструкции с восьмигранным ободком круглой формы, напоминающим иллюминатор, и циферблатом с горизонтальным рельефным узором – модель Nautilus с 1976 года является образцом элегантных спортивных часов. За сорок лет была сформирована замечательная коллекция мужских и женских моделей. Выполненные из стали, розового золота, белого золота или предлагаемые в двухцветном исполнении часы в благородной манере вписываются в самый динамичный стиль жизни.",
+    "country": "Швейцария",
+    "brand_name": "Patek Philippe",
+    "gender": "Мужские",
+    "mechanism": "Механизм с автоматическим заводом и индикатором даты.",
+    "case_material": "Розовое золото",
+    "waterproof": "До 120 м",
+    "warranty": "Пожизненно",
+    "quantity": 1,
+    "category": 1
+  }
+},
+{
+  "model": "product.product",
+  "pk": 10,
+  "fields": {
+    "image": "product_images/prod_08_1.jpg",
+    "image1": "product_images/prod_08_2.jpg",
+    "image2": "product_images/prod_08_3.jpg",
+    "image3": "product_images/prod_08_4.jpg",
+    "name": "ЧЫСЫ ROLEX OYSTER PERPETUAL, 41 мм, сталь Oyster",
+    "price": 320540,
+    "product_code": 11113,
+    "exist": true,
+    "description": "Модели Oyster Perpetual обладают эстетическими качествами, благодаря которым они могут служить образцом универсального классического стиля. Их отличает безупречная гармония формы и функциональности, характерная для часов Rolex с момента основания этой новаторской компании.",
+    "country": "Швейцария",
+    "brand_name": "Rolex",
+    "gender": "Мужские",
+    "mechanism": "Perpetual, автоматический подзавод",
+    "case_material": "Сталь",
+    "waterproof": "До 100 м",
+    "warranty": "70",
+    "quantity": "",
+    "category": 1
+  }
+},
+{
+  "model": "product.basket",
+  "pk": 33,
+  "fields": {
+    "user": 6,
+    "product": 3,
+    "quantity": 1,
+    "created_timestamp": "2022-08-22T19:41:32.160Z"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 1,
+  "fields": {
+    "brand": "Michael Kors"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 2,
+  "fields": {
+    "brand": "Atlantic"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 3,
+  "fields": {
+    "brand": "Sevenfriday"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 4,
+  "fields": {
+    "brand": "Rado"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 5,
+  "fields": {
+    "brand": "Garmin"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 6,
+  "fields": {
+    "brand": "Rolex"
+  }
+},
+{
+  "model": "product.filterbrand",
+  "pk": 7,
+  "fields": {
+    "brand": "Patek Philippe"
+  }
+},
+{
+  "model": "product.filtercountry",
+  "pk": 1,
+  "fields": {
+    "country": "США"
+  }
+},
+{
+  "model": "product.filtercountry",
+  "pk": 2,
+  "fields": {
+    "country": "Швейцария"
+  }
+},
+{
+  "model": "product.filtermaterial",
+  "pk": 1,
+  "fields": {
+    "material": "Cталь"
+  }
+},
+{
+  "model": "product.filtermaterial",
+  "pk": 2,
+  "fields": {
+    "material": "Кожа"
+  }
+},
+{
+  "model": "product.filtermaterial",
+  "pk": 3,
+  "fields": {
+    "material": "Полимер"
+  }
+},
+{
+  "model": "product.filtermaterial",
+  "pk": 4,
+  "fields": {
+    "material": "Золото"
+  }
+},
+{
+  "model": "product.filtermaterial",
+  "pk": 5,
+  "fields": {
+    "material": "Розовое золото"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$cql43xeutlOVIx92fFn6Fm$w5sM7Z73jMBAlVxd2WnmcQpoqzv7xcTOc5hpgFPfv/I=",
+    "last_login": "2022-08-22T19:52:28.944Z",
+    "is_superuser": true,
+    "username": "hhrm",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-01-20T11:38:57Z",
+    "image": "users_images/IMAGE_2021-11-09_082953.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$fJWxfPMBIN81muVQLYnAsz$es3HKCCVnApU4VbqNJbPAEnI+FOun44C0wkLT24Iu+w=",
+    "last_login": "2022-08-22T14:57:34.170Z",
+    "is_superuser": false,
+    "username": "test5",
+    "first_name": "test5",
+    "last_name": "test5",
+    "email": "test@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-08-22T14:57:28.083Z",
+    "image": "users_images/about_us.png",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
